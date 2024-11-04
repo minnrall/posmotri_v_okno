@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -35,4 +36,67 @@ fieldset {
 ul,
 ol {
   list-style: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+} 
+
+.content {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.content__list {
+  max-width: 399px;
+  height: 298px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.content__details {
+  height: 100%;
+  width: 100%;
+  gap: 30px;
+}
+
+.result__video-container {
+  max-width: 711px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+/* .result__video {
+  width: 100%;
+  max-height: 386px;
+  object-fit: cover;
+  object-position: center;
+} */
+
+.content__video-card-thumbnail {
+ max-height: 103px;
+ max-width: 195px;
+ object-fit: cover;
+ object-position: center;
 }
