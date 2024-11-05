@@ -182,7 +182,6 @@ ol {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
   gap: 40px;
 }
 
@@ -231,6 +230,7 @@ ol {
 
 .search-form__submit-button {
   align-self: flex-end;
+  max-width: 194px;
 }
 
 .search-form__textfield {
@@ -271,4 +271,5 @@ ol {
   cursor: pointer;
   width: 100%;
   height: 100%;
+  max-width: 194px;
 }
