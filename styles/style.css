@@ -60,7 +60,6 @@ ol {
 
 .content__list {
   max-width: 400px;
-  width: 100%;
   height: 298px;
   overflow-y: auto;
   display: flex;
