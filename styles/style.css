@@ -146,6 +146,8 @@ ol {
 .result {
   max-width: 715px;
   width: 100%;
+  margin-left: 5px;
+  margin-bottom: 2px;
 }
 
 .result__video-container {
@@ -164,6 +166,8 @@ ol {
 .title {
   font-family: Oswald, sans-serif;
   margin-bottom: 22px;
+  padding-left: 9px;
+  padding-bottom: 8px;
   font-weight: 700;
   font-size: 75px;
   line-height: 70px;
