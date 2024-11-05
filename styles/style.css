@@ -63,7 +63,7 @@ ol {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 40px;
+  gap: 43px;
 }
 
 .content__list {
@@ -106,7 +106,7 @@ ol {
 }
 
 .result {
-  max-width: 711px;
+  max-width: 715px;
   width: 100%;
 }
 
@@ -259,7 +259,7 @@ ol {
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
-  letter-spacing: -0.08px;
+  letter-spacing: 0.3px;
   background-color: transparent;
   inline-size: 225px;
   color: #FFF;
